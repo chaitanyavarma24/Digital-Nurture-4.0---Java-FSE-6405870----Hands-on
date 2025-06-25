@@ -31,17 +31,16 @@ Welcome to my learning journey through the Cognizant Digital Nurture 4.0 Java Fu
 
 ## 📅 Week-wise Breakdown
 
-| Week | Topics Covered                            |
-|------|-------------------------------------------|
-| [Week 1](./Week-1/) | Design Patterns & SOLID Principles        |
-| [Week 2](./Week-2/) | Data Structures & Algorithms             |
-| [Week 3](./Week-3/) | Spring Core & Maven                      |
-| [Week 4](./Week-4/) | PL/SQL: Procedures, Cursors, Exceptions  |
-| [Week 5](./Week-5/) | Spring Data JPA + Hibernate              |
-| [Week 6](./Week-6/) | REST API Development with Spring Boot    |
-| [Week 7](./Week-7/) | Microservices Architecture (Intro)       |
-| [Week 8](./Week-8/) | Testing, Logging, Git, React, DevOps     |
-
+| Week | Topics Covered |
+|------|----------------|
+| [Week 1](./Week-1/) | Design Principles & Patterns, Data Structures & Algorithms |
+| [Week 2](./Week-2/) | PL/SQL, TDD (JUnit5 & Mockito), SLF4J Logging |
+| [Week 3](./Week-3/) | Spring Core & Maven, Spring Data JPA with Hibernate |
+| [Week 4](./Week-4/) | REST API Development with Spring Boot 3 |
+| [Week 5](./Week-5/) | Microservices with Spring Boot 3 & Spring Cloud |
+| [Week 6](./Week-6/) | React (SPA Framework) |
+| [Week 7](./Week-7/) | React Continued |
+| [Week 8](./Week-8/) | Git & Version Control Basics |
 ---
 
 ## 🚀 Final Assessment
