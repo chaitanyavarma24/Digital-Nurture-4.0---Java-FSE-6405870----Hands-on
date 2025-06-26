@@ -43,10 +43,10 @@ Welcome to my learning journey through the Cognizant Digital Nurture 4.0 Java Fu
 | [Week 8](./Week-8/) | Git & Version Control Basics |
 ---
 
-## 🚀 Final Assessment
+## Author
 
-- A final evaluation will be conducted covering backend development, database programming, REST APIs, testing, and microservices basics.
+👤 **Chaitanya Varma**
 
----
-
-📂 Dive into each week's folder for detailed explanations, code examples, and exercises!
+- GitHub: [@chaitanyavarma24](https://github.com/chaitanyavarma24)
+- Email: chaitanyavarmalanke@gmail.com
+- superset ID : 6405870
