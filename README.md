@@ -1,5 +1,6 @@
 
-![alt text](image001.jpg)
+![image001](https://github.com/user-attachments/assets/f60e34a5-f6f6-433b-828b-3b5c9f54734f)
+
 # Digital Nurture 4.0 – Java Full Stack Engineer (Java FSE)
 
 Welcome to my learning journey through the Cognizant Digital Nurture 4.0 Java Full Stack Engineer Deep-Skilling Program. This repository contains week-wise folders with detailed notes and code on full stack technologies covered during the 8-week program.
