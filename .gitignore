@@ -1,0 +1,22 @@
+# Ignore temp Word files
+~$.docx
+
+# Ignore backup and temp system files
+.tmp
+.bak
+Thumbs.db
+.DS_Store
+
+# Ignore IDE-specific folders (if using VSCode, Eclipse, etc.)
+.vscode
+.idea
+.log
+
+# Ignore compiled class files (if Java)
+.class
+
+# Ignore node_modules (if using Node.js)
+node_modules
+
+# Ignore Mac OS-specific files
+__MACOSX
