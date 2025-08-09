@@ -51,21 +51,6 @@ git config --global -e
 
 ![Notepad++ Integration](output/notepad++.png)
 
-**Test Commit Using Notepad++**
-
-1. Make a change to a file.
-2. Stage the change:
-
-   ```bash
-   git add filename
-   ```
-3. Commit (Notepad++ will open for message entry):
-
-   ```bash
-   git commit
-   ```
-
-![Commit Using Notepad++](output/commit-notepadpp.png)
 
 ---
 
