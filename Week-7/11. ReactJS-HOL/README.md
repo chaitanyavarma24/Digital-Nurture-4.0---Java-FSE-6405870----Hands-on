@@ -1,8 +1,3 @@
-Based on your React code and the instructions from **11. ReactJS-HOL (Event Handling)**, here is a complete `README.md` file in the same style as earlier hands-on labs.
-
----
-
-```markdown
 # React Hands-on 11 – Event Handling and Synthetic Events
 
 This hands-on lab demonstrates how to handle events in React using event handlers, synthetic events, and functional components with state.
