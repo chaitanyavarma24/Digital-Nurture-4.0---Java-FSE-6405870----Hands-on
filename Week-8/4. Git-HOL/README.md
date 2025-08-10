@@ -45,7 +45,8 @@ git commit -m "Added hello.xml in GitWork branch"
 
 You should see your new commit reflected here.
 
-![](output/branch-commit.png)
+![](output/branch-commit1.png)
+![](output/branch-commit2.png)
 
 ---
 
