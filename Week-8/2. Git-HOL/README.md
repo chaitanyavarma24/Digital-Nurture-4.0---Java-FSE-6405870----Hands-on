@@ -88,7 +88,7 @@ git add .gitignore
 git commit -m "Added .gitignore to ignore log files and logs folder"
 git push
 ```
-
+![Commit-message](output/git-commit.png)
 ![Pushing .gitignore](output/git-push.png)
 
 ---
