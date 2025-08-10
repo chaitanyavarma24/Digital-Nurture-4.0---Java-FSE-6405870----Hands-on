@@ -17,7 +17,7 @@ git branch
 
 Confirm that your working directory is clean or has files ready to be committed.
 
-![](output/status.png)
+![](output/add.png)
 
 ---
 
@@ -48,7 +48,7 @@ Check the status again to confirm the file is staged:
 git status
 ```
 
-![](output/add.png)
+![](output/status.png)
 
 ---
 
