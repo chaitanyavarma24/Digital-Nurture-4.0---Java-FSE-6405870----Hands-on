@@ -1,5 +1,25 @@
 # Git Hands-on Lab 2 – Using .gitignore
 
+## Theory
+
+### What is `.gitignore`?
+The `.gitignore` file tells Git which files or directories to skip when tracking changes. This helps keep unnecessary, temporary, or sensitive files out of version control.
+
+### Why use `.gitignore`?
+- Prevents large or auto-generated files from bloating the repository.
+- Keeps sensitive information (like credentials) out of source control.
+- Ensures only the important files are tracked.
+
+### How `.gitignore` Works
+- You create a `.gitignore` file in your repository.
+- Inside it, you add patterns to match files or folders you want to ignore.
+- Examples:
+  - `*.log` → Ignore all `.log` files in the repo.
+  - `logs/` → Ignore the entire `logs` folder.
+  - `/temp.txt` → Ignore only `temp.txt` in the root directory.
+
+---
+
 ## Objective
 This lab demonstrates how to use `.gitignore` in Git to exclude unwanted files and folders from being tracked.
 
@@ -14,77 +34,72 @@ This lab demonstrates how to use `.gitignore` in Git to exclude unwanted files a
 
 ## Step 2: Create Files and Folders to Ignore
 
-# Create a .log file
+```bash
 echo "This is a log file" > debug.log
-
-# Create a logs folder and add a file
 mkdir logs
 echo "Sample log entry" > logs/error.log
+````
 
-[Place Screenshot Here: Creating files and folder]
+![Creating files and folder](output/log-files.png)
 
-(output/log-file.png)
 ---
 
-## Step 3: Create .gitignore File
+## Step 3: Create `.gitignore` File
 
-# Open .gitignore in Notepad++
+```bash
 notepad++ .gitignore
+```
 
-# Add the following lines:
+Add the following lines to `.gitignore`:
+
+```
 *.log
 logs/
+```
 
 This means:
-- Ignore all files ending in .log.
-- Ignore the entire logs folder and its contents.
 
-[Place Screenshot Here: Editing .gitignore]
-(output/gitignore.png)
+* Ignore all files ending in `.log`.
+* Ignore the entire `logs` folder and its contents.
+
+![Editing .gitignore](output/gitignore.png)
+
 ---
 
-## Step 4: Verify .gitignore Works
+## Step 4: Verify `.gitignore` Works
 
-# Check repository status
+```bash
 git status
+```
 
 Expected output:
-- .gitignore appears as untracked.
-- debug.log and logs/ folder are not listed.
 
-[Place Screenshot Here: git status output]
+* `.gitignore` appears as untracked.
+* `debug.log` and `logs/` folder are not listed.
 
+![Git status output](output/git-status.png)
 
-(output/git-status.png)
 ---
 
-## Step 5: Commit and Push .gitignore
+## Step 5: Commit and Push `.gitignore`
 
-# Stage the .gitignore file
+```bash
 git add .gitignore
-
-
-# Commit the change
 git commit -m "Added .gitignore to ignore log files and logs folder"
-
-# Push to GitLab
 git push
+```
 
-[Place Screenshot Here: Pushing .gitignore]
+![Pushing .gitignore](output/git-push.png)
 
-(output/git-push.png)
 ---
 
 ## Step 6: Outcome
-- .gitignore is present in the repository.
-- debug.log and logs/ folder are excluded from Git tracking.
-- Changes successfully pushed to GitLab.
 
-[Place Screenshot Here: GitLab view of repo]
+* `.gitignore` is present in the repository.
+* `debug.log` and `logs/` folder are excluded from Git tracking.
+* Changes successfully pushed to GitLab.
 
+![GitLab view of repo](output/gitlab.png)
 
-(output/gitlab.png)
 ---
 
-## Author
-Chaitanya Varma Lanke
